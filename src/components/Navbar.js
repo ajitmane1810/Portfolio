@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Theme from "./theme/Theme.js";
+import Logo from "../assets/Logo.gif"
 
 const Navbar = () => {
  
@@ -26,8 +27,10 @@ const Navbar = () => {
   return (
     <div>
        {/* navbar */}
-      <nav className="max-w-full  text-white py-4  bg-slate-100 dark:bg-gray-800 fixed top-0 left-0 right-0 z-50 shadow-lg">
-        <div className="flex justify-between items-center px-8">
+      <nav className='max-w-full  text-white py-3 bg-slate-100 dark:bg-transparent fixed top-0 left-0 right-0 z-50 shadow-lg'
+      // style={{ boxShadow: '0px 0px 10px rgba(0, 123, 255, 0.5)' }}
+      >
+        <div className="flex justify-between items-center px-8 md:px-16">
           {/* Menu Icon for Mobile */}
           <div className="md:hidden flex items-center">
             <button
@@ -52,18 +55,19 @@ const Navbar = () => {
           </div>
 
           {/* Logo */}
-          <div className="text-2xl font-semibold ">
+          <div>
             <Link
               to="/"
-              className="text-black dark:text-white"
               onClick={(e) => handleHomeClick(e)}
             >
-              Logo
+              <img src={Logo} alt="Logo" 
+              className=" w-12 h-12 object-cover rounded-md cursor-pointer"
+              />
             </Link>
           </div>
 
           {/* Navbar for Desktop */}
-          <div className="hidden md:flex space-x-8 text-xl text-black dark:text-white">
+          <div className="hidden md:flex space-x-8 text-base text-black dark:text-white  ">
             <Link
               to="/"
               className="hover:text-orange-400"

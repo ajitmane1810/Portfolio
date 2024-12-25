@@ -11,21 +11,21 @@ const Button = ({
   disabled = false,
 }) => {
   const baseStyles =
-    "text-3xl font-semibold rounded focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200";
+    " text-3xl font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all duration-200";
 
   // Define button colors based on the "color" prop
   const colorClasses = {
     blue: "bg-blue-500 text-white hover:bg-blue-600 focus:ring-blue-500",
     red: "bg-red-500 text-white hover:bg-red-600 focus:ring-red-500",
     green: "bg-green-500 text-white hover:bg-green-600 focus:ring-green-500",
-    gray: "bg-gray-900 text-white hover:bg-gray-600 focus:ring-gray-500",
+    gray: "bg-gray-800 text-orange-500 hover:bg-gray-600 focus:ring-gray-500",
   };
 
   // Define button sizes based on the "size" prop
   const sizeClasses = {
-    small: "px-10 py-2 text-sm",
-    medium: "px-16 py-3 text-base",
-    large: "px-20 py-4 text-lg",
+    small: "sm:px-6 sm:py-2 sm:text-sm",    
+    medium: "md:px-10 md:py-3 md:text-base",
+    large: "lg:px-14 lg:py-4 lg:text-lg",  
   };
 
   const borderClasses = {
@@ -33,6 +33,7 @@ const Button = ({
     dashed: "border-2 border-dashed border-gray-700",
     dotted: "border-2 border-dotted border-gray-700",
   };
+
   return (
     <button
       type={type}

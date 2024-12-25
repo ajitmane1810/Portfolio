@@ -4,20 +4,20 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/homePage/Home.js";
 import Projects from "./pages/projectPage/Projects.js";
-import Experience from "./pages/experiencePage/Experience.js";
 import BackgroundView from "./components/Layout/BackgroundView.js";
+import ExperienceList from "./pages/experiencePage/ExperienceList.js";
 
 const App = () => {
   return (
-    <div className=" bg-slate-200 dark:bg-gray-800  ">
+    <div className=" bg-white dark:bg-gray-950  ">
       <Router>
         <Navbar />
         <BackgroundView>
-          <div className="h-screen ">
+          <div className="">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/experience" element={<Experience />} />
+              <Route path="/experience" element={<ExperienceList />} />
             </Routes>
           </div>
         </BackgroundView>

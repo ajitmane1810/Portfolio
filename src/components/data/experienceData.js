@@ -1,44 +1,57 @@
-const expData = [
-   
-    {
-      id: "1",
-      org: "Botnostic Solutions",
-      title: "UI/UX Designer & Developer",
-      date: "Mar 2024 - Present",
-      description:  "In this role, I design wireframes and create frontend pages from ideation to development. I blend creativity with technical expertise to deliver compelling user experiences. My focus spans from initial brainstorming sessions to the final polish of the user interface. I also collaborate with other team members to ensure seamless project execution."
-    },
-    {
-        id: "2",
-        org: "Kreativ Ally",
-        title: "Junior Web Designer",
-        date: "Dec 2023 - Feb 2024",
-        description:  "Built responsive design layouts for German clients, created custom interactions and animations, enhancing user engagement. Collaboratively plan with global teams for design and feature updates and ensured end-to-end product's quality checks, and timely delivery."
-      },  
-    {
-        id: "3",
-        org: "SKANS PK",
-        title: "R&D Programmer",
-        date: "Jan 2023 - Feb 2024",
-        description:  
-            "I was responsible for the programming of data to be entered on the system built with Microsoft ASP.NET framework. I conducted thorough research and analysis to identify areas for innovation and improvement. Collaborated effectively with cross functional teams to drive the enhancement of the system and user experience.",
-      },   
-    {
-        id: "4",
-        org: "Freelance",
-        title: "ReactJS/NextJS Developer",
-        date: "Since 2021",
-        description:  
-            "I have successfully worked in MERN stack and Nextjs gaining expertise in both frontend and backend development. I have also actively contributed to the testing of Node applications, ensuring high-quality deliverables. Utilizing Agile methodology, I effectively collaborate with teams to enhance productivity and ensure seamless project execution.",
-      },  
-      {
-        id: "5",
-        org: "Freelance",
-        title: "Graphic Designer",
-        date: "2018 - 2020",
-        description:  
-            "As a freelance graphic designer, I have worked independently and collaborated with clients to create visually appealing and impactful designs ideas, and deliver high-quality visual solutions that meet their needs. I have managed my schedule while ensuring timely project delivery and maintaining client satisfaction. ",
-      },  
-    
+import CompanyImage from "../../assets/portfolioImages/vanlife.png"
+
+const experienceData = [
+  {
+    id: "1",
+    org: "CodeX Tech-Hub",
+    title: "Full Stack Developer",
+    date: "Mar 23 - Sep 24",
+    description:
+      "As a Full Stack Developer, I contribute to the development and maintenance of both front-end and back-end solutions. I create interactive UIs with React.js, handle server-side logic with Spring Boot, and optimize database interactions using MySQL for efficient web applications.",
+    imageUrl: CompanyImage,
+    link: "",
+  },
+  {
+    id: "2",
+    org: "CodeX Tech-Hub",
+    title: "Junior Application Developer",
+    date: "Sep 23 - Present",
+    description:
+      "As a Junior Flutter Developer, I build cross-platform mobile applications for iOS and Android using Flutter and Dart. My responsibilities include designing intuitive and visually appealing user interfaces, identifying and resolving issues in the code to ensure optimal performance, and applying logical problem-solving skills to create efficient, bug-free code.",
+    imageUrl:  CompanyImage ,
+    link: "https://www.linkedin.com/company/codex-tech-hub/about/",
+  },
+  {
+    id: "3",
+    org: "Lorem Lorem",
+    title: "Lorem",
+    date: "Date",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque sapiente iusto? Officiis, consequatur. Minima, voluptatem. Enim aliquid repellat odio veritatis pariatur ipsam ut animi dolores dolorem et modi mollitia tenetur deserunt ab doloremque eius vitae adipisci ea optio, iste, quod illo veniam explicabo? Nihil a exercitationem molestias porro, ab asperiores repellat quos magni amet error natus ipsum corporis pariatur mollitia quaerat officiis aliquam illo earum minus at dolore perspiciatis. ",
+    imageUrl:  "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png" ,
+    link: "",
+  },
+  {
+    id : "4",
+    org: "Lorem Lorem",
+    title: "Lorem",
+    date: "Date",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque sapiente iusto? Officiis, consequatur. Minima, voluptatem. Enim aliquid repellat odio veritatis pariatur ipsam ut animi dolores dolorem et modi mollitia tenetur deserunt ab doloremque eius vitae adipisci ea optio, iste, quod illo veniam explicabo? Nihil a exercitationem molestias porro, ab asperiores repellat quos magni amet error natus ipsum corporis pariatur mollitia quaerat officiis aliquam illo earum minus at dolore perspiciatis. ",
+    imageUrl:  "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png" ,
+    link: "",
+  },
+  {
+    id : "5",
+    org: "Lorem Lorem",
+    title: "Lorem",
+    date: "Date",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cumque sapiente iusto? Officiis, consequatur. Minima, voluptatem. Enim aliquid repellat odio veritatis pariatur ipsam ut animi dolores dolorem et modi mollitia tenetur deserunt ab doloremque eius vitae adipisci ea optio, iste, quod illo veniam explicabo? Nihil a exercitationem molestias porro, ab asperiores repellat quos magni amet error natus ipsum corporis pariatur mollitia quaerat officiis aliquam illo earum minus at dolore perspiciatis. ",
+    imageUrl:  "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png" ,
+    link: "",
+  },
+ 
 ];
 
-export default expData;
+export default experienceData;

@@ -36,12 +36,12 @@ function BackgroundView({ children }) {
                     particles: {
                         color: {
                            
-                            value: "#ec6e59",
+                            value: "#007BFF80",
                             
                         },
                         links: {
                            
-                            color: "#ec6e59",
+                            color: "#007BFF80",
                             distance: 150,
                             enable: true,
                             opacity: 0.3,

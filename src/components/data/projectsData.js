@@ -1,48 +1,74 @@
-// projectsData.js
 export const projectsData = [
   {
-    image: 'https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg',
-    projectName: 'Project One',
-    description: 'A brief description of Project One goes here.',
-     technology: '#React #Tailwind CSS #Node.js',
-     category: 'Web' 
+    image: 'https://via.placeholder.com/500',
+    projectName: 'WORLD DATAHUB',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#ReactJS #Tailwind CSS #RestAPI',
+    category: 'React Website',
+    link: 'https://world-data-hub.vercel.app/',
   },
   {
     image: 'https://via.placeholder.com/500',
-    projectName: 'Project Two',
+    projectName: 'MOVIES APP',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#Flutter #RestAPI',
+    category: 'Mobile App',
+    link: '',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'E_SHOPAPP Website',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#ReactJS #TAILWINDCSS #FIREBASE #FIRESTORE',
+    category: 'React Website',
+    link: 'https://e-shopapp.vercel.app/',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'TODO LIST',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#Flutter #FIREBASE #FIRESTORE',
+    category: 'Mobile App',
+    link: '',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'SNAKE GAME',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#HTML #CSS #JAVASCRIPT',
+    category: 'Javascript',
+    link: 'https://via.placeholder.com/500',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'STOPWATCH',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#HTML #CSS #JAVASCRIPT',
+    category: 'Javascript',
+    link: 'https://via.placeholder.com/500',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'HTML',
+    description: 'A brief description of Project Three goes here.',
+    technology: '#HTML #CSS',
+    category: 'HTML',
+    link: 'https://via.placeholder.com/500',
+  },
+  {
+    image: 'https://via.placeholder.com/500',
+    projectName: 'WEATHER_APP',
     description: 'A brief description of Project Two goes here.',
-     technology: '#React #Tailwind CSS #Node.js',
-     category: 'Mobile' 
+    technology: '#HTML #CSS #JAVASCRIPT',
+    category: 'Javascript',
+    link: 'https://via.placeholder.com/500',
   },
   {
-    image: 'https://via.placeholder.com/500',
-    projectName: 'Project Three',
-    description: 'A brief description of Project Three goes here.',
-     technology: '#React #Tailwind CSS #Node.js',
-      category: 'Web'
-  },
-  {
-    image: 'https://via.placeholder.com/500',
-    projectName: 'Project Three',
-    description: 'A brief description of Project Three goes here.',
-     category: 'Mobile'
-  },
-  {
-    image: 'https://via.placeholder.com/500',
-    projectName: 'Project Three',
-    description: 'A brief description of Project Three goes here.',
-     category: 'Mobile'
-  },
-  {
-    image: 'https://via.placeholder.com/500',
-    projectName: 'Project Three',
-    description: 'A brief description of Project Three goes here.',
-     category: 'Web'
-  },
-  {
-    image: 'https://via.placeholder.com/500',
-    projectName: 'Project Three',
-    description: 'A brief description of Project Three goes here.',
-     category: 'Mobile'
+    image: 'https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg',
+    projectName: 'HTML',
+    description: 'A brief description of Project One goes here.',
+    technology: '#HTML #CSS',
+    category: 'HTML',
+    link: 'https://via.placeholder.com/500',
   },
 ];

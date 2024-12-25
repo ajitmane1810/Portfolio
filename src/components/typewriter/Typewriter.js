@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 const Typewriter = () => {
-  const strings = [
-    "Front End Developer",
-    "Mobile App Developer",
-    "ReactJS Developer",
-    "Problem Solver!",
-    "Continuous Learning!",
-  ];
+
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
   const [currentString, setCurrentString] = useState("");
   const [isTyping, setIsTyping] = useState(true);
+
+  const strings = useMemo(()=> [
+    "Front End Developer",
+    "ReactJS Developer",
+    "Mobile App Developer",
+    "Problem Solver!",
+    "Continuous Learning!",
+   ],[]);  //  array ensures this is memoized once and not recreated on every render
 
   useEffect(() => {
     if (isTyping) {
@@ -39,7 +41,7 @@ const Typewriter = () => {
         return () => clearTimeout(timeout);
       }
     }
-  }, [currentString, currentStringIndex, isTyping]);
+  }, [currentString, currentStringIndex, isTyping,strings]);
 
   return (
     <span className="text-4xl font-semibold text-purple-700 md:tracking-[2px]">
