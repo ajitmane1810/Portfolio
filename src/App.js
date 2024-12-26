@@ -6,6 +6,7 @@ import Home from "./pages/homePage/Home.js";
 import Projects from "./pages/projectPage/Projects.js";
 import BackgroundView from "./components/Layout/BackgroundView.js";
 import ExperienceList from "./pages/experiencePage/ExperienceList.js";
+import Footer from "./components/Footer.js";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             </Routes>
           </div>
         </BackgroundView>
+        <Footer/>
       </Router>
     </div>
   );

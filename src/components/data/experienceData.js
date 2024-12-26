@@ -1,4 +1,4 @@
-import CompanyImage from "../../assets/portfolioImages/vanlife.png"
+import CompanyImage from "../../assets/CodeX.png"
 
 const experienceData = [
   {

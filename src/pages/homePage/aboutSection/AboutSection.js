@@ -1,35 +1,54 @@
+import { Download } from "lucide-react";
 import React from "react";
+import Resume from "../../../assets/Ajit_Mane.pdf";
+import StarsBackground from "../../../components/Layout/StarsBackground";
 
 const AboutSection = () => {
   return (
     <div
       id="about"
-      className=" md:h-[600px] px-7  md:px-0 text-center justify-start  bg-gray-800 dark:bg-slate-200 text-gray-100 bg-cover bg-center "
-      // style={{ backgroundImage: "url('https://content.cdntwrk.com/mediaproxy?url=https%3A%2F%2Fres.cloudinary.com%2Fuf-555466%2Fimage%2Fupload%2Fv1731353110%2FHexagon_ALI_Design_Review_Issue_Mgmt_Blog_Thumb_500x272_acpfbl.jpg&size=1&version=1731594518&sig=9fc3e127f8af79dc3fbadc463aa6c294&default=hubs%2Ftilebg-blogs.jpg')" }}
+      className="min-h-screen bg-[#1a1a2e] text-white py-4 pl-4 pr-7 md:p-8 lg:p-16 flex flex-row items-center justify-center gap-8 relative overflow-hidden"
     >
+      <StarsBackground/>
+      <div className="w-full space-y-6 relative z-10">
+        <h1 className=" text-3xl uppercase text-start md:text-center font-bold md:text-5xl">
+          About{" "}
+          <span className="text-purple-700 text-3xl font-bold md:text-5xl">
+            Me!
+          </span>
+        </h1>
+        <p className="text-gray-300 text-base md:text-lg mb-5 text-start md:text-center">
+          I'm a{" "}
+          <span className="text-orange-500 text-base md:text-lg">Frontend Developer</span>{" "}
+          and currently a{" "}
+          <span className="text-orange-500 text-base md:text-lg">1+ year</span> undergrad,
+          creating robust web apps across various platforms. I'm a dynamic
+          developer with a strong command of{" "}
+          <span className="text-orange-500 text-base md:text-lg">JavaScript</span>,
+          <span className="text-orange-500 text-base md:text-lg"> ReactJS</span>, and
+          <span className="text-orange-500 text-base md:text-lg"> Tailwind CSS</span>,
+          focused on building fast, scalable, and visually appealing web
+          applications. With expertise in{" "}
+          <span className="text-orange-500 text-base md:text-lg">REST API integration</span>{" "}
+          and real-time solutions using{" "}
+          <span className="text-base md:text-lg">Firebase and Firestore</span>, I
+          deliver seamless backend functionality. My proficiency in{" "}
+          <span className="text-orange-500 text-base md:text-lg">Dart </span> and{" "}
+          <span className="text-orange-500 text-base md:text-lg">Flutter</span> empowers me
+          to create robust, cross-platform mobile apps that offer outstanding
+          performance. I am driven by a passion for clean, efficient code and
+          creating exceptional user experiences across all platforms.
+        </p>
 
-      {/* About  */}
-      <div className=" flex flex-col md:flex-row items-center justify-center  py-[50px]  dark:text-black ">
-        <div className="flex flex-col items-center md:items-start max-w-2xl text-center md:text-left">
-          <h2 className="text-4xl font-bold mb-4">LET ME INTRODUCE MYSELF</h2>
-          <p className="text-lg mb-6">
-            We are a passionate team dedicated to creating amazing web
-            experiences. With a focus on innovation, user experience, and
-            design, we strive to bring the best to every project we take on.
-          </p>
-          <p className="text-lg">
-            Our mission is to provide quality solutions that not only meet but
-            exceed client expectations. We believe in collaboration,
-            transparency, and creativity.
-          </p>
-        </div>
-        <div className="mt-8 md:mt-0 md:ml-8">
-          <img
-            src="your-image-url-here.jpg"
-            alt="About Us"
-            className="w-72 h-72 object-cover rounded-lg shadow-lg"
-          />
-        </div>
+        <button className="mt-8 bg-indigo-500 text-white px-6 py-3 rounded-full flex items-center md:m-auto gap-2 w-auto md:w-16">
+  <a href={Resume} download="Resume" className="flex items-center">
+    <Download size={20} />
+    <span className="ml-2 md:hidden inline-block">
+      DOWNLOAD CV
+    </span>
+  </a>
+</button>
+
       </div>
     </div>
   );

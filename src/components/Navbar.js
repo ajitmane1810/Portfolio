@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div>
        {/* navbar */}
-      <nav className='max-w-full  text-white py-3 bg-slate-100 dark:bg-transparent fixed top-0 left-0 right-0 z-50 shadow-lg'
+      <nav className='max-w-full  text-white py-3 bg-slate-100 dark:bg-slate-950 fixed top-0 left-0 right-0 z-50 shadow-lg'
       // style={{ boxShadow: '0px 0px 10px rgba(0, 123, 255, 0.5)' }}
       >
         <div className="flex justify-between items-center px-8 md:px-16">

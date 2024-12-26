@@ -9,7 +9,7 @@ const ExperienceList = () => {
         <h1 className="text-purple-700 text-3xl uppercase font-bold md:text-5xl p-4">
           Experience
         </h1>
-        <p className="text-gray-500 px-4">
+        <p className="text-gray-500 dark:text-gray-300 px-4">
           With a strong foundation in Frontend Development and Flutter
           Development, I have 1 year of experience in frontend technologies and
           6 months of expertise in building mobile applications using Flutter. I

@@ -5,6 +5,7 @@ import HeroSection from "../homePage/heroSection/HeroSection.js";
 import AboutSection from "./aboutSection/AboutSection.js";
 import MainImage from "../homePage/heroSection/HeroImage.js";
 import ContactSection from "./ContactSection.js";
+import Skills from "./SkillsSection.js";
 
 const Home = () => {
   return (
@@ -13,8 +14,8 @@ const Home = () => {
         <HeroSection />
         <MainImage />
       </div>
-
         <AboutSection/>
+        <Skills />
         <ContactSection/>
     </div>
   );

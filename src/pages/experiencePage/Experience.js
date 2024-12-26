@@ -32,9 +32,9 @@ const Experience = ({ org, title, date,description, imageUrl, link }) => {
 
             {/* Truncate description if not expanded */}
             <p
-              className={`text-gray-600 text-sm leading-relaxed ${
+              className={`text-gray-300 text-sm leading-relaxed ${
                 !isExpanded ? 'line-clamp-4' : '' 
-              } text-gray-400`}
+              } text-gray-300`}
             >
               {description}
             </p>

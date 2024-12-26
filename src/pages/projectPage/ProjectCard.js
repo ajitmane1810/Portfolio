@@ -19,8 +19,8 @@ const ProjectCard = ({ image, projectName, description, technology, link }) => {
         <img
           src={image}
           alt={projectName}
-          className="w-52 h-52 object-cover m-auto mt-3 rounded-md cursor-pointer"
-          onClick={handleImageClick} // Make image clickable
+          className="w-64 h-48 object-cover m-auto mt-3 rounded-md cursor-pointer"
+          onClick={handleImageClick} 
         />
         {/* External Link icon appears only on image hover */}
         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -34,6 +34,7 @@ const ProjectCard = ({ image, projectName, description, technology, link }) => {
           </a>
         </div>
       </div>
+      <hr className="mt-5"/>
       <div className="px-6 py-4">
         <h2 className="text-xl font-semibold text-white">{projectName}</h2>
         <h3 className="text-purple-700 font-semibold text-[18px] mt-2">{technology}</h3>
