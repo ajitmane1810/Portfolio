@@ -1,20 +1,53 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "../../components/Button";
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "../../components/data/projectsData";
+import Model from "./ProjectModel";
 
 const Projects = () => {
   const [filter, setFilter] = useState("ALL");
+  const [showModal,setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+  
 
   const filterProjects = (category) => {
     setFilter(category);
   };
+  
 
   // Filter the projects based on the selected filter
   const filteredProjects = projectsData.filter((project) => {
     if (filter === "ALL") return true; // Show all projects if "ALL" is selected
     return project.category === filter; // Show only matching category projects
   });
+
+
+   // Handle the opening of the modal with the selected project
+   const handleOpenModal = (project) => {
+    setSelectedProject(project);
+    setShowModal(true); // Show the modal
+  };
+
+  // Close the modal
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
+
+
+    // Disable scrolling on body when modal is open
+    useEffect(() => {
+      if (showModal) {
+        document.body.style.overflow = "hidden"; // Prevent body scroll
+      } else {
+        document.body.style.overflow = "auto"; // Restore body scroll
+      }
+  
+      // Clean up when the component unmounts or modal closes
+      return () => {
+        document.body.style.overflow = "auto"; // Make sure scroll is restored if the modal is closed or on unmount
+      };
+    }, [showModal]); // Run this effect whenever showModal change
 
   return (
     <div className="p-4 dark:text-white">
@@ -75,9 +108,18 @@ const Projects = () => {
             projectName={project.projectName}
             technology={project.technology}
             link={project.link}
+            onDetailClick={()=>(handleOpenModal(project))}
           />
         ))}
       </div>
+
+       {/* Conditionally render the modal */}
+       {showModal && (
+        <Model
+          project={selectedProject}
+          onClose={handleCloseModal} // Pass close function
+        />
+      )}
     </div>
   );
 };
