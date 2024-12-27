@@ -1,7 +1,7 @@
-import WorldDataHub from "../../assets/portfolioImages/restcountries.jpg";
-import E_SHOPAPP from "../../assets/portfolioImages/shopapp.png";
-import STOPWATCH from "../../assets/portfolioImages/stopwatch.png";
-import SNAKEGAME from "../../assets/portfolioImages/snakegame.png";
+import WorldDataHub from "../../assets/projects_img/restcountries.jpg";
+import E_SHOPAPP from "../../assets/projects_img/shopapp.png";
+import STOPWATCH from "../../assets/projects_img/stopwatch.png";
+import SNAKEGAME from "../../assets/projects_img/snakegame.png";
 
 export const projectsData = [
   {
