@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from "./Experience.js";
 import experienceData from "../../components/data/experienceData.js";
+import Skills from "../homePage/SkillsSection.js";
 
 const ExperienceList = () => {
   return (
@@ -32,6 +33,7 @@ const ExperienceList = () => {
           />
         ))}
       </div>
+      <Skills/>
     </div>
   );
 };
