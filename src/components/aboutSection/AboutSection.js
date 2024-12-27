@@ -1,7 +1,7 @@
 import { Download } from "lucide-react";
 import React from "react";
-import Resume from "../../../assets/Ajit_Mane.pdf";
-import StarsBackground from "../../../components/Layout/StarsBackground";
+import Resume from "../../assets/Ajit_Mane.pdf";
+import StarsBackground from "../Layout/StarsBackground";
 
 const AboutSection = () => {
   return (

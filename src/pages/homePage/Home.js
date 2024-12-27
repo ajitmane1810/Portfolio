@@ -1,11 +1,11 @@
 import React from "react";
 
 import "../../index.css";
-import HeroSection from "../homePage/heroSection/HeroSection.js";
-import AboutSection from "./aboutSection/AboutSection.js";
-import MainImage from "../homePage/heroSection/HeroImage.js";
-import ContactSection from "./ContactSection.js";
-import Skills from "./SkillsSection.js";
+import HeroSection from "../../components/heroSection/HeroSection.js";
+import AboutSection from "../../components/aboutSection/AboutSection.js";
+import MainImage from "../../components/heroSection/HeroImage.js";
+import ContactSection from "../../components/contactSection/ContactSection.js";
+import Skills from "../../components/skillsSection/SkillsSection.js";
 
 const Home = () => {
   return (

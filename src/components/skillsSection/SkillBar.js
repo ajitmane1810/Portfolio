@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getSkillIcon } from '../components/utils/skillIcons';
+import { getSkillIcon } from './skillIcons';
 
 const SkillBar = ({ skill, percentage }) => {
   const [currentPercentage, setCurrentPercentage] = useState(0);

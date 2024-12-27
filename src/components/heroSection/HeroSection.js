@@ -1,7 +1,7 @@
 import React from "react";
-import Typewriter from "../../../components/typewriter/Typewriter";
-import "../../../index.css";
-import Resume from "../../../assets/Ajit_Mane.pdf";
+import Typewriter from "../typewriter/Typewriter";
+import "../../index.css";
+import Resume from "../../assets/Ajit_Mane.pdf";
 
 const HeroSection = () => {
   return (

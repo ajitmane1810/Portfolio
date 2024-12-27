@@ -1,6 +1,6 @@
 import React from 'react'
 import { Github, Twitter, Linkedin } from 'lucide-react';
-import StarsBackground from '../../components/Layout/StarsBackground';
+import StarsBackground from '../Layout/StarsBackground';
 import myImage from '../../assets/profile-avatar.png'
 
 const ContactSection = () => {

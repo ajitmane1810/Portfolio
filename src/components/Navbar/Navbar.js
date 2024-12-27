@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
-import Theme from "./theme/Theme.js";
-import Logo from "../assets/Logo.gif";
-import MenuItems from "./Navbar/MenuItems.js";
-import MobileNavbar from "./Navbar/MobileNavbar.js";
+import Theme from "../theme/Theme.js";
+import Logo from "../../assets/Logo.gif"; 
+import MenuItems from "./MenuItems.js";
+import MobileNavbar from "./MobileNavbar.js";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

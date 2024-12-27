@@ -1,6 +1,6 @@
 import React from 'react';
-import SkillBar from '../../components/SkillBar'; // Import SkillBar component
-import CircularSkillBar from '../../components/CircularSkillBar.js';
+import SkillBar from './SkillBar.js'; // Import SkillBar component
+import CircularSkillBar from './CircularSkillBar.js';
 
 const Skills = () => {
   const skillsLeft = [

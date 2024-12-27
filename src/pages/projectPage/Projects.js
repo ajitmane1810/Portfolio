@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Button from "../../components/Button";
+import Button from "../../components/utils/Button";
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "../../components/data/projectsData";
 import Model from "./ProjectModel";
