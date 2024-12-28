@@ -4,8 +4,6 @@ import React from "react";
 const ProjectCard = ({
   image,
   projectName,
-  description,
-  technology,
   link,
   onDetailClick,
 }) => {

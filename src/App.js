@@ -9,11 +9,11 @@ import Footer from "./components/Footer.js";
 
 const App = () => {
   return (
-    <div className=" bg-white dark:bg-gray-950  ">
+    <div className=" bg-slate-100 dark:bg-slate-950  ">
       <Router>
         <Navbar />
         <BackgroundView>
-          <div className="">
+          <div>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />

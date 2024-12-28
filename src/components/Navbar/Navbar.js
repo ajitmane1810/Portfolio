@@ -14,9 +14,10 @@ const Navbar = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
+  // Navigate to home
   const handleHomeClick = (e) => {
     e.preventDefault();
-    navigate("/"); // Navigate to home
+    navigate("/"); 
   };
 
   const isHomePage = location.pathname === "/";
@@ -25,7 +26,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="max-w-full text-white py-3 bg-slate-100 dark:bg-slate-950 fixed top-0 left-0 right-0 z-50 shadow-lg">
+      <nav className="max-w-full text-white py-1 bg-slate-100 dark:bg-slate-950 fixed top-0 left-0 right-0 z-50 shadow-lg">
         <div className="flex justify-between items-center px-8 md:px-16">
           {/* Mobile Menu Icon */}
           <div className="md:hidden flex items-center">

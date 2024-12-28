@@ -75,7 +75,7 @@ export const projectsData = [
   {
     image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
     projectName: "HTML",
-    description: "A brief description of Project One goes here.",
+    description: "A Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
     technology: "#HTML #CSS",
     category: "HTML",
     link: "",
@@ -83,14 +83,14 @@ export const projectsData = [
   {
     image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
     projectName: "HTML",
-    description: "A brief description of Project Three goes here.",
+    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
     technology: "#HTML #CSS",
     category: "HTML",
     link: "",
   },  {
     image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
     projectName: "HTML",
-    description: "A brief description of Project Three goes here.",
+    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
     technology: "#HTML #CSS",
     category: "HTML",
     link: "",

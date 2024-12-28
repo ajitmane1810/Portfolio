@@ -17,15 +17,15 @@ const Projects = () => {
 
   // Filter the projects based on the selected filter
   const filteredProjects = projectsData.filter((project) => {
-    if (filter === "ALL") return true; // Show all projects if "ALL" is selected
-    return project.category === filter; // Show only matching category projects
+    if (filter === "ALL") return true; 
+    return project.category === filter; 
   });
 
 
    // Handle the opening of the modal with the selected project
    const handleOpenModal = (project) => {
     setSelectedProject(project);
-    setShowModal(true); // Show the modal
+    setShowModal(true); 
   };
 
   // Close the modal
@@ -38,16 +38,16 @@ const Projects = () => {
     // Disable scrolling on body when modal is open
     useEffect(() => {
       if (showModal) {
-        document.body.style.overflow = "hidden"; // Prevent body scroll
+        document.body.style.overflow = "hidden";
       } else {
-        document.body.style.overflow = "auto"; // Restore body scroll
+        document.body.style.overflow = "auto";
       }
   
       // Clean up when the component unmounts or modal closes
       return () => {
-        document.body.style.overflow = "auto"; // Make sure scroll is restored if the modal is closed or on unmount
+        document.body.style.overflow = "auto"; 
       };
-    }, [showModal]); // Run this effect whenever showModal change
+    }, [showModal]);
 
   return (
     <div className="p-4 dark:text-white">
@@ -71,7 +71,7 @@ const Projects = () => {
           color="gray"
           size="small"  
           border="solid"
-          className="px-2 py-2 text-xs md:px-16 md:py-3 md:text-base" // Adjust size for larger screens
+          className="px-2 py-2 text-xs md:px-16 md:py-3 md:text-base" 
         />
         <Button
           text="Javascript"
@@ -117,7 +117,7 @@ const Projects = () => {
        {showModal && (
         <Model
           project={selectedProject}
-          onClose={handleCloseModal} // Pass close function
+          onClose={handleCloseModal} 
         />
       )}
     </div>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ExternalLink } from 'lucide-react';
 
 const Experience = ({ org, title, date,description, imageUrl, link }) => {
   const [isExpanded, setIsExpanded] = useState(false);

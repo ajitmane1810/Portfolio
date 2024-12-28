@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Name */}
       <blockquote className="font-extrabold text-2xl text-[#ec6e59] mt-[-10px] lg:text-3xl md:text-2xl tm:text-2.5xl sm:text-base">
         I'm
-        <span className="before:block mx-4 mb-6 mt-4 before:absolute before:-inset-2 before:-skew-y-[3deg] before:bg-[#ec6e59] relative inline-block">
+        <span className="before:block  mx-4 mb-6 mt-4 before:absolute before:-inset-2 before:-skew-y-[3deg] before:bg-[#ec6e59] relative inline-block">
           <span className="relative text-white dark:text-[#20262E]">
             Ajit Mane
           </span>
@@ -28,12 +28,12 @@ const HeroSection = () => {
       {/* buttons  */}
       <div className="flex gap-3 mb-8">
 
-        <button className="relative border border-orange-400 px-3 py-2 md:px-5 rounded-xl md:rounded-lg text-sm md:text-base group overflow-hidden">
+        <button className="relative border-2 border-orange-400 px-3 py-2 md:px-5 rounded-xl md:rounded-lg text-sm md:text-base group overflow-hidden">
           <span className="absolute inset-0 bg-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-all duration-1000 origin-left z-0"></span>
           <span className="relative z-10">Hire Me</span>
         </button>
 
-        <button className="relative border border-orange-400 px-2 md:px-5 py-2 rounded-xl md:rounded-lg  text-sm md:text-base group overflow-hidden">
+        <button className="relative border-2 border-orange-400 px-2 md:px-5 py-2 rounded-xl md:rounded-lg  text-sm md:text-base group overflow-hidden">
           <a className="relative z-10" href={Resume} download="Resume">
             Download CV
           </a>

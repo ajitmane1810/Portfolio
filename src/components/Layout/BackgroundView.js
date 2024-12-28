@@ -5,12 +5,12 @@ import { loadFull } from "tsparticles";
 function BackgroundView({ children }) {
 
     const particlesInit = async (main) => {
-        console.log(main);
+        // console.log(main);
         await loadFull(main);
     };
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
     };
 
     return (

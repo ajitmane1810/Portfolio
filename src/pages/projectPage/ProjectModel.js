@@ -23,7 +23,7 @@ const Model = ({ project, onClose }) => {
     <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50">
       {/* Modal content container */}
       <div
-        ref={modalRef} // Attach the ref to modal content
+        ref={modalRef} 
         className="bg-slate-400 w-11/12 md:w-3/4 lg:w-1/2 p-6 rounded-lg shadow-lg relative"
       >
         {/* Close button */}

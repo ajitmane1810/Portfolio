@@ -35,9 +35,9 @@ const SkillBar = ({ skill, percentage }) => {
     <div ref={skillRef} className="mb-6">
       <div className="flex justify-between mb-2">
         <span className="text-white flex items-center">
-          {React.cloneElement(icon, { color })} {/* Render the icon with the correct color */}
-          <span>{skill}</span>
+          {React.cloneElement(icon, { color })} 
         </span>
+          <span className='text-white mx-3 text-start flex-1 hidden md:block'>{skill}</span>
         <span className="text-green-500">{currentPercentage}%</span>
       </div>
       <div className="w-full bg-gray-800 rounded-full h-2.5">
