@@ -2,6 +2,7 @@ import WorldDataHub from "../../assets/projects_img/restcountries.jpg";
 import E_SHOPAPP from "../../assets/projects_img/shopapp.png";
 import STOPWATCH from "../../assets/projects_img/stopwatch.png";
 import SNAKEGAME from "../../assets/projects_img/snakegame.png";
+import CoffeeWebsite from "../../assets/projects_img/coffee-website.png"
 
 export const projectsData = [
   {
@@ -51,7 +52,8 @@ export const projectsData = [
   {
     image: SNAKEGAME,
     projectName: "SNAKE GAME",
-    description: "This Snake Game is a classic arcade game developed using JavaScript, HTML, and CSS. The game allows the player to control a snake that grows longer each time it eats food, with the objective of avoiding collisions with the walls and itself.",
+    description:
+      "This Snake Game is a classic arcade game developed using JavaScript, HTML, and CSS. The game allows the player to control a snake that grows longer each time it eats food, with the objective of avoiding collisions with the walls and itself.",
     technology: "#HTML #CSS #JAVASCRIPT",
     category: "Javascript",
     link: "https://snake-game-virid-chi.vercel.app/",
@@ -59,40 +61,31 @@ export const projectsData = [
   {
     image: STOPWATCH,
     projectName: "STOPWATCH",
-    description: "This is a Stopwatch application built using HTML, CSS, and JavaScript. The app allows users to start, stop, reset, and record elapsed time in a simple, easy-to-use interface. It's perfect for timing tasks, workouts, or any event that requires keeping track of elapsed time.",
+    description:
+      "This is a Stopwatch application built using HTML, CSS, and JavaScript. The app allows users to start, stop, reset, and record elapsed time in a simple, easy-to-use interface. It's perfect for timing tasks, workouts, or any event that requires keeping track of elapsed time.",
     technology: "#HTML #CSS #JAVASCRIPT",
     category: "Javascript",
     link: "https://stopwatch-mhbp1xikr-ajit-s-projects-0a8f0846.vercel.app/",
   },
   {
-    image: "https://store-images.s-microsoft.com/image/apps.16894.c02476d2-2378-4f60-8290-b6d4b3842643.79a2ef6a-4775-4c79-8d93-9caf077660eb.1bbd88a4-0a17-4750-91a0-cd7d98f58e9d",
+    image:
+      "https://store-images.s-microsoft.com/image/apps.16894.c02476d2-2378-4f60-8290-b6d4b3842643.79a2ef6a-4775-4c79-8d93-9caf077660eb.1bbd88a4-0a17-4750-91a0-cd7d98f58e9d",
     projectName: "WEATHER_APP",
     description: `The Weather App is a web application that provides real-time weather data for any city worldwide. Using the OpenWeatherMap API, the app fetches and displays key weather information such as temperature, humidity, wind speed, and weather conditions (e.g., sunny, cloudy, rainy). The app is built using HTML, CSS, and JavaScript for a responsive and interactive user experience.`,
     technology: "#HTML #CSS #JAVASCRIPT",
     category: "Javascript",
-    link: "",
+    link: "https://weatherchecking0210.netlify.app/",
   },
   {
-    image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
+    image:
+      CoffeeWebsite,
     projectName: "HTML",
-    description: "A Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
+    description: `This is a simple and visually appealing Coffee website created using HTML and CSS. The website provides an overview of various coffee offerings and is designed to offer users an intuitive, responsive, and aesthetically pleasing experience.
+Clean Layout: The website has a minimalistic design focusing on coffee products with well-organized sections for easy navigation.`
+,
     technology: "#HTML #CSS",
     category: "HTML",
-    link: "",
+    link: "https://coffeewebsite01.netlify.app/",
   },
-  {
-    image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
-    projectName: "HTML",
-    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
-    technology: "#HTML #CSS",
-    category: "HTML",
-    link: "",
-  },  {
-    image: "https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png",
-    projectName: "HTML",
-    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta officiis libero nesciunt ad illum repudiandae incidunt voluptatibus iure. Consectetur amet animi ducimus optio, sit quis quibusdam corporis, quisquam mollitia saepe facere minima esse? Quis excepturi nobis repudiandae quisquam dicta reprehenderit doloremque voluptate blanditiis, esse eaque repellendus amet odio libero recusandae..",
-    technology: "#HTML #CSS",
-    category: "HTML",
-    link: "",
-  },
+ 
 ];

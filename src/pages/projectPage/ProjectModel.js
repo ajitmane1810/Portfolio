@@ -24,7 +24,7 @@ const Model = ({ project, onClose }) => {
       {/* Modal content container */}
       <div
         ref={modalRef} 
-        className="bg-slate-400 w-11/12 md:w-3/4 lg:w-1/2 p-6 rounded-lg shadow-lg relative"
+        className="bg-slate-400 min-h-[80%] w-11/12 md:w-3/4 lg:w-1/2 p-6 rounded-lg shadow-lg relative"
       >
         {/* Close button */}
         <button
