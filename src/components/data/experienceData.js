@@ -5,7 +5,7 @@ const experienceData = [
     id: "1",
     org: "CodeX Tech-Hub",
     title: "Full Stack Developer Intern",
-    date: "Jan 24 - Jun 24",
+    date: "July 24 - Dec 24",
     description:
       "As a Full Stack Developer, I contribute to the development and maintenance of both front-end and back-end solutions. I create interactive UIs with React.js, handle server-side logic with Spring Boot, and optimize database interactions using MySQL for efficient web applications.",
     imageUrl: CompanyImage,
@@ -15,7 +15,7 @@ const experienceData = [
     id: "2",
     org: "CodeX Tech-Hub",
     title: "Flutter Developer Intern",
-    date: "July 24 - Dec 24",
+    date: "Jan 24 - Jun 24",
     description:
       "As a Junior Flutter Developer, I build cross-platform mobile applications for iOS and Android using Flutter and Dart. My responsibilities include designing intuitive and visually appealing user interfaces, identifying and resolving issues in the code to ensure optimal performance, and applying logical problem-solving skills to create efficient, bug-free code.",
     imageUrl:  CompanyImage ,

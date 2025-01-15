@@ -3,6 +3,7 @@ import E_SHOPAPP from "../../assets/projects_img/shopapp.png";
 import STOPWATCH from "../../assets/projects_img/stopwatch.png";
 import SNAKEGAME from "../../assets/projects_img/snakegame.png";
 import CoffeeWebsite from "../../assets/projects_img/coffee-website.png"
+import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png'
 
 export const projectsData = [
   {
@@ -29,6 +30,14 @@ export const projectsData = [
     technology: "#ReactJS #TAILWINDCSS #FIREBASE #FIRESTORE",
     category: "React Website",
     link: "https://e-shopapp.vercel.app/",
+  },
+  {
+    image: GLOBALTOURIST,
+    projectName: "GLOBALTOURIST Website",
+    description: `GlobalTourist is a travel and tourism website that helps users explore destinations worldwide. It provides destination guides, travel itineraries, local experiences, and useful tips to make every journey unforgettable. Ideal for travelers seeking inspiration and practical travel resources.`,
+    technology: "#Vite #ReactJS #TAILWINDCSS ",
+    category: "React Website",
+    link: "https://globaltourist.vercel.app/",
   },
   {
     image:
