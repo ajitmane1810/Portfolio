@@ -2,8 +2,9 @@ import WorldDataHub from "../../assets/projects_img/restcountries.jpg";
 import E_SHOPAPP from "../../assets/projects_img/shopapp.png";
 import STOPWATCH from "../../assets/projects_img/stopwatch.png";
 import SNAKEGAME from "../../assets/projects_img/snakegame.png";
-import CoffeeWebsite from "../../assets/projects_img/coffee-website.png"
-import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png'
+import CoffeeWebsite from "../../assets/projects_img/coffee-website.png";
+import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png';
+import VirtualR from "../../assets/projects_img/virualr.png";
 
 export const projectsData = [
   {
@@ -38,6 +39,14 @@ export const projectsData = [
     technology: "#Vite #ReactJS #TAILWINDCSS ",
     category: "React Website",
     link: "https://globaltourist.vercel.app/",
+  },
+  {
+    image: VirtualR,
+    projectName: "VirtualR",
+    description: `The landing page of "Virtualr" features a modern design with a clean interface. It likely emphasizes a virtual or digital experience, with visually appealing elements and user-friendly navigation. The layout is responsive and designed to engage visitors. For a detailed exploration, you can visit the site here.`,
+    technology: "#Vite #ReactJS #TAILWINDCSS ",
+    category: "React Website",
+    link: "https://virtualr-nine-hazel.vercel.app/",
   },
   {
     image:
