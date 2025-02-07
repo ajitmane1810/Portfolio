@@ -1,6 +1,6 @@
 import { Download } from "lucide-react";
 import React from "react";
-import Resume from "../../assets/Ajit vijay mane.pdf";
+import Resume from "../../assets/AJIT_MANE.pdf";
 
 const AboutSection = () => {
   return (

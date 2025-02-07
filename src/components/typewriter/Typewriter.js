@@ -9,6 +9,7 @@ const Typewriter = () => {
   const strings = useMemo(() => [
     "Front End Developer",
     "ReactJS Developer",
+    "Full Stack Developer",
     "Mobile App Developer",
     "Problem Solver!",
     "Continuous Learning!",

@@ -5,6 +5,7 @@ import SNAKEGAME from "../../assets/projects_img/snakegame.png";
 import CoffeeWebsite from "../../assets/projects_img/coffee-website.png";
 import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png';
 import VirtualR from "../../assets/projects_img/virualr.png";
+import Books_Management from "../../assets/projects_img/books-management-website.png";
 
 export const projectsData = [
   {
@@ -31,6 +32,14 @@ export const projectsData = [
     technology: "#ReactJS #TAILWINDCSS #FIREBASE #FIRESTORE",
     category: "React Website",
     link: "https://e-shopapp.vercel.app/",
+  },
+  {
+    image: Books_Management,
+    projectName: "BOOKS MANAGEMENT WEBSITE",
+    description: `This project is a Books Management Website that allows users to perform CRUD (Create, Read, Update, Delete) operations on book data. It is built using ReactJS, Spring Boot, and a MySQL database to provide a seamless user experience and efficient back-end functionality.`,
+    technology: "#ReactJS #TAILWINDCSS #SPRING-BOOT #MYSQL",
+    category: "React Website",
+    link: "https://books-management-website.vercel.app/",
   },
   {
     image: GLOBALTOURIST,
