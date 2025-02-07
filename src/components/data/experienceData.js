@@ -5,7 +5,7 @@ const experienceData = [
     id: "1",
     org: "CodeGen Technologies,Satara",
     title: "Full Stack Developer Intern",
-    date: "Sep 24 - Feb 25",
+    date: "Sep 24 - PRESENT",
     description:
       "As a Full Stack Developer, I contribute to the development and maintenance of both front-end and back-end solutions. I create interactive UIs with React.js, handle server-side logic with Spring Boot, and optimize database interactions using MySQL for efficient web applications.",
     imageUrl: CompanyImage,
