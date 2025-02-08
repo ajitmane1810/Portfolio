@@ -6,6 +6,7 @@ import CoffeeWebsite from "../../assets/projects_img/coffee-website.png";
 import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png';
 import VirtualR from "../../assets/projects_img/virualr.png";
 import Books_Management from "../../assets/projects_img/books-management-website.png";
+import realEstate from "../../assets/projects_img/real-estate.png";
 
 export const projectsData = [
   {
@@ -56,6 +57,14 @@ export const projectsData = [
     technology: "#Vite #ReactJS #TAILWINDCSS ",
     category: "React Website",
     link: "https://virtualr-nine-hazel.vercel.app/",
+  },
+  {
+    image: realEstate,
+    projectName: "Real-Estate",
+    description: `The project is a real estate landing page designed to showcase property listings with a modern and responsive UI. It features a clean design, intuitive navigation, and essential property details. Built with modern web technologies, it aims to provide a visually appealing and engaging user experience.`,
+    technology: "#Vite #ReactJS #TAILWINDCSS ",
+    category: "React Website",
+    link: "https://real-estate-weld-omega.vercel.app/",
   },
   {
     image:
