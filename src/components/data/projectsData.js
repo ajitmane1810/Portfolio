@@ -7,6 +7,7 @@ import GLOBALTOURIST from '../../assets/projects_img/globaltourist.png';
 import VirtualR from "../../assets/projects_img/virualr.png";
 import Books_Management from "../../assets/projects_img/books-management-website.png";
 import realEstate from "../../assets/projects_img/real-estate.png";
+import MYUSERSAPP from "../../assets/projects_img/myusers_webapp.png";
 
 export const projectsData = [
   {
@@ -42,6 +43,16 @@ export const projectsData = [
     category: "React Website",
     link: "https://books-management-website.vercel.app/",
   },
+
+  {
+    image: MYUSERSAPP,
+    projectName: "MyUsersApp",
+    description: `MyUserApp is a full-stack web application designed to manage user data efficiently. The frontend is built with React.js for a dynamic and interactive user experience, while Tailwind CSS ensures a responsive and visually appealing UI. The backend is developed using Node.js, with MySQL as the database for storing and managing user information.`,
+    technology: "#ReactJS #TAILWINDCSS #NodeJS #ExpressJs #MYSQL",
+    category: "React Website",
+    link: "https://my-users-three.vercel.app/",
+  },
+
   {
     image: GLOBALTOURIST,
     projectName: "GLOBALTOURIST Website",
